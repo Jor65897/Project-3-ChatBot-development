@@ -1,0 +1,223 @@
+/* Common Styles */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+/* Input Styles */
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #617993;
+}
+
+/* Flex Containers */
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+/* Login.css */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* Set the entire page background to white */
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333; /* Darker color for better readability */
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 20px; /* Add padding to create space inside the form */
+  border: 1px solid #ddd; /* Light border around the form */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #ffffff; /* Ensure the form background is white */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc; /* Lighter border around text fields */
+  border-radius: 25px;
+  font-size: 16px;
+  background-color: #fff; /* Ensure input fields are white */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+input:focus {
+  outline: none;
+  border-color: #aaa; /* Slightly darker border when focused */
+}
+
+.login-button {
+  padding: 10px;
+  border: 1px solid #ccc; /* Light border around buttons */
+  border-radius: 25px;
+  background-color: #ddd; /* Lighter background for buttons */
+  font-size: 18px;
+  color: black; /* Set button text color to black */
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #ccc; /* Slightly darker on hover */
+  border-color: #bbb; /* Darker border on hover */
+}
+
+.register-link {
+  margin-top: 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}
+
+/* Chat.css */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.chat-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+  width: 90vw; /* 90% of the viewport width */
+  max-width: 1200px; /* Maximum width for larger screens */
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  background-color: #617993;
+  padding: 10px;
+  color: white;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.chat-output {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.chat-message {
+  margin-bottom: 15px;
+}
+
+.chat-input {
+  display: flex;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  align-items: center; /* Center the input and button vertically */
+}
+
+.chat-input input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.chat-input button {
+  padding: 10px 20px;
+  background-color: #617993;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.chat-input button:hover {
+  background-color: #4a5f73;
+}
