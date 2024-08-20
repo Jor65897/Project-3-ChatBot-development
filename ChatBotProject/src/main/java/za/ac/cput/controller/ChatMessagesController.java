@@ -29,6 +29,8 @@ public class ChatMessagesController {
             return new ResponseEntity<>(HttpStatus.NO_CONTENT);
         }
         return new ResponseEntity<>(messages, HttpStatus.OK);
+        //This is new code
+        //Testing
     }
 
     @DeleteMapping("/messages/{id}")
